@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yaman Haji Sulaiman - CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+        header { background: #003366; color: white; padding: 30px 20px; text-align: center; }
+        .lang-toggle { position: absolute; right: 20px; top: 20px; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        h1, h2 { color: #003366; }
+        .section { margin-bottom: 30px; }
+        .profile-img { width: 150px; height: 150px; background: #ccc; border-radius: 50%; margin-bottom: 20px; }
+        .pdf-download { margin-top: 10px; display: inline-block; background: #005fa3; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; }
+        [dir="rtl"] { direction: rtl; text-align: right; }
+    </style>
+    <script>
+        function toggleLang() {
+            const en = document.getElementById('en');
+            const ar = document.getElementById('ar');
+            if (en.style.display === 'none') {
+                en.style.display = 'block';
+                ar.style.display = 'none';
+            } else {
+                en.style.display = 'none';
+                ar.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Yaman Haji Sulaiman</h1>
+        <p>Monitoring, Evaluation, and ICT Specialist</p>
+        <button class="lang-toggle" onclick="toggleLang()">عربي / English</button>
+    </header>
+
+    <div id="en" class="container">
+        <div class="section">
+            <div class="profile-img"></div>
+            <p>Results-driven MEAL and ICT Specialist with 5+ years of experience in humanitarian operations. Expert in digital data collection, Power BI, KoboToolbox, and field-level M&E.</p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <p><strong>Shafak Organization, Idleb</strong> • MEAL Assistant (2020 – Present)</p>
+            <ul>
+                <li>Led digital data collection, designed Kobo/ODK tools, and analyzed results using Power BI and Excel.</li>
+                <li>Conducted field visits and led accountability processes.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>B.Sc. in Informatics Engineering – Sham University, 2021</li>
+                <li>B.Sc. in Nursing – Aleppo University, 2021</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact</h2>
+            <p>Email: yamanhajisulaiman@gmail.com<br>Phone: +963 980 318 972</p>
+        </div>
+
+        <a class="pdf-download" href="#">Download PDF</a>
+    </div>
+
+    <div id="ar" class="container" style="display:none;" dir="rtl">
+        <div class="section">
+            <div class="profile-img"></div>
+            <p>أخصائي متابعة وتقييم وتكنولوجيا معلومات يتمتع بخبرة تزيد عن خمس سنوات في السياق الإنساني، ومتخصص في أدوات جمع البيانات الرقمية مثل Kobo و Power BI وتحليل البيانات الميدانية.</p>
+        </div>
+
+        <div class="section">
+            <h2>الخبرات العملية</h2>
+            <p><strong>منظمة شفق - إدلب</strong> • مساعد متابعة وتقييم (2020 – الآن)</p>
+            <ul>
+                <li>قيادة جمع البيانات الرقمية، تصميم أدوات Kobo/ODK، وتحليل النتائج باستخدام Power BI و Excel.</li>
+                <li>زيارات ميدانية وقيادة عمليات المساءلة مع المستفيدين.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>التعليم</h2>
+            <ul>
+                <li>بكالوريوس في هندسة المعلوماتية – جامعة الشام، 2021</li>
+                <li>بكالوريوس في التمريض – جامعة حلب، 2021</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>معلومات التواصل</h2>
+            <p>البريد الإلكتروني: yamanhajisulaiman@gmail.com<br>الهاتف: 00963 980 318 972</p>
+        </div>
+
+        <a class="pdf-download" href="#">تحميل النسخة PDF</a>
+    </div>
+</body>
+</html>
